@@ -15,32 +15,32 @@ abstract class IAppColors {
 
 class AppColors implements IAppColors {
   @override
-  Color get background => Color(0xFFF7F7F7);
+  Color get background => const Color(0xFFF7F7F7);
 
   @override
-  Color get badColor => Color(0xFFE45851);
+  Color get badColor => const Color(0xFFE45851);
 
   @override
-  Color get buttonDisabled => Color(0xFFABABAB);
+  Color get buttonDisabled => const Color(0xFFABABAB);
 
   @override
-  Color get iconInactive => Color(0xFF8C8C8C);
+  Color get iconInactive => const Color(0xFF8C8C8C);
 
   @override
-  Color get inputNormal => Color(0xFF949B9C);
+  Color get inputNormal => const Color(0xFF949B9C);
 
   @override
-  Color get primary => Color(0xFF27AE60);
+  Color get primary => const Color(0xFF27AE60);
 
   @override
-  Color get textColor => Color(0xFF272727);
+  Color get textColor => const Color(0xFF272727);
 
   @override
-  Color get textDisabled => Color(0xFFD9D9D9);
+  Color get textDisabled => const Color(0xFFD9D9D9);
 
   @override
-  Color get textEnabled => Color(0xFFFFFFFF);
+  Color get textEnabled => const Color(0xFFFFFFFF);
 
   @override
-  Color get border => Color(0xFFE9E9EC);
+  Color get border => const Color(0xFFE9E9EC);
 }

@@ -1,6 +1,8 @@
 import 'package:promoland/shared/theme/app_colors.dart';
 import 'package:promoland/shared/theme/text_styles.dart';
 
+export 'app_text.dart';
+
 class AppTheme {
   static final AppTheme instance = AppTheme();
 
